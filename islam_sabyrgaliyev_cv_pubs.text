@@ -72,40 +72,33 @@
   \href{https://github.com/isabyr/}{https://github.com/isabyr/} & Mobile : +7-701-952-47-82 \\
 \end{tabular*}
 
-%-----------EDUCATION-----------------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Suleyman Demirel University}{Almaty, Kazakhstan}
-      {Bachelor in Computing Systems and Software}{Sept. 2006 -- Jun. 2010}
-  \resumeSubHeadingListEnd
-
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
+
     \resumeSubheading
-      {BTS Digital LLP}{Astana, Kazakhstan}
-      {Middle Big Data Engineer}{Oct 2019 - Now \vspace{6pt}}
-      {I'm a member of DataScience/MachineLearning team and provide tools/infrastructure for developing and deploying projects, particularly: \vspace{-6pt}}
+      {BTS Digital}{Astana, Kazakhstan}
+      {Middle Big Data Engineer}{Oct 2019 - Now \vspace{6pt}}{Development of various web applications for data annotation and collection with user management, billing and reporting. So far I have developed following tools using Django REST and VueJS frontend frameworks:\vspace{-6pt}}
       \resumeItemListStart
-        \resumeItem{Django REST/VueJS}
-          {Developed audio transcription web application with following features: user management, billing, reporting, automatic pre transcription, keyboard shortcuts, out of vocabulary highlighter for verifiers, etc.}
-        \resumeItem{SIP, VoIP}
-          {Modified PJSIP library to add features like extracting audio stream from the call for speech-to-text processing, streaming output of text-to-speech engine to the call.}
+        \resumeItem{Audio}
+          {Easy-to-use annotation tool for transcribing multichannelled audio calls.}
+        \resumeItem{KazNLI}
+          {Web application for checking and editing machine translated kazakh version of Stanford NLI corpus.}
       \resumeItemListEnd
+
     \resumeSubheading
-      {Connected Home LLP}{Astana, Kazakhstan}
-      {Software Engineer}{Feb 2019 - Sep 2019 \vspace{6pt}}
-      {The company develops smart home devices and integrates into HomeAssistant platform:\vspace{-6pt}}
+      {BI Group Inc.}{Astana, Kazakhstan}
+      {Software Engineer}{Feb 2019 - Sep 2019 \vspace{6pt}}{Development of Smarthome Infrastructure:\vspace{-6pt}}
       \resumeItemListStart
-        \resumeItem{Modbus poller}
-          {Developed Modbus server integrated with MQTT client for syncronizing polled devices states with HomeAssistant.}
-        \resumeItem{VPN}
-          {Deployed L2TP network for accessing remote HomeAssistant instances.}
+        \resumeItem{HomeAssistant}
+          {Developing custom components for HomeAssistant software stack, such as: advanced Modbus poller, Modbus2mqtt converter, integration with intercom, integration with voice assistants, L2TP infrastructure for remote device access.}
+        \resumeItem{OpenThread}
+          {Researching OpenThread mesh-networking capabilities with NRF52840.}
       \resumeItemListEnd
+
     \resumeSubheading
       {CVT LLP}{Astana, Kazakhstan}
-      {Software/DevOps Engineer}{Aug 2017 - Apr 2018 \vspace{6pt}}
+      {Senior Software/DevOps Engineer}{Aug 2017 - Apr 2018 \vspace{6pt}}
       {The company develops software for detecting traffic misdemeanors using computer vision and machine learning techniques. Responsibilities and accomplished tasks:\vspace{-6pt}}
       \resumeItemListStart
         \resumeItem{FFMpeg/CUDA}
@@ -124,7 +117,7 @@
       \resumeItemListStart
         \resumeItem{Assembling Kazakh Language Corpus}
           {The project is aimed at building the first kazakh language corpus as an initial step for development of language processing tools, such as morpho- and syntactic parsers. The project tasks include maintaining website(http://kazcorpus.kz) and developing web-based text annotation tool. Skills: Apache HTTP, Tomcat, Lucene, JSP/Servlet, JavaScript/jQuery.}
-        \resumeItem{Research oriented cloud computing platform deployment}
+        \resumeItem{Designing cloud computing-based systems for Big Data}
           {The main goal of the project was to deploy a cloud platform to provide a versatile computing tools for research groups. I was responsible for the platform design, Openstack software setup and administering cloud portal(user support, computation tools setup). Skills: Linux, LXC, KVM, OpenStack, LDAP, Hadoop, Spark, MPI.}
       \resumeItemListEnd
     \resumeSubheading
@@ -137,8 +130,6 @@
 %-----------PROJECTS-----------------
 \section{Freelance Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{Embedded software for vending machines}
-      {Implemented MDB compliant cashless payment terminal for vending machines on ESP32 microcontroller.}
     \resumeSubItem{Robotized KAMAZ Truck}
       {Setting up an infrastructure for streaming video from truck onboard cameras to media server. Developing web client for monitoring and controlling the truck by integrating to onboard ROS: Raspberry, FFmpeg, VueJS.}
   \resumeSubHeadingListEnd
@@ -147,7 +138,7 @@
       {Developed a website of scientific mentoring service(http://scinet.kz) using VueJS, Django REST, PostgreSQL.}
   \resumeSubHeadingListEnd
 
-
+%
 %--------PROGRAMMING SKILLS------------
 %\section{Programming Skills}
 %  \resumeSubHeadingListStart
@@ -161,5 +152,25 @@
 
 %-------------------------------------------
 
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Suleyman Demirel University}{Almaty, Kazakhstan}
+      {Bachelor in Computing Systems and Software}{Sept. 2006 -- Jun. 2010}
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS---------------
+\section{Publications}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Makhambetov, Olzhas, Aibek Makazhanov, Zhandos Yessenbayev, Bakhyt Matkarimov, Islam Sabyrgaliyev, and Anuar Sharafudinov}
+      {"Assembling the kazakh language corpus." In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, pp. 1022-1031. 2013.}
+    \resumeSubItem{Makazhanov, Aibek, Olzhas Makhambetov, Islam Sabyrgaliyev, and Zhandos Yessenbayev}
+      {"Spelling correction for kazakh." In International Conference on Intelligent Text Processing and Computational Linguistics, pp. 533-541. Springer, Berlin, Heidelberg, 2014.}
+    \resumeSubItem{Makazhanov, Aibek, Zhandos Yessenbayev, Islam Sabyrgaliyev, Anuar Sharafudinov, and Olzhas Makhambetov}
+      {"On certain aspects of kazakh part-of-speech tagging." In 2014 IEEE 8th International Conference on Application of Information and Communication Technologies (AICT), pp. 1-4. IEEE, 2014.}
+    \resumeSubItem{Makhambetov, Olzhas, Aibek Makazhanov, Islam Sabyrgaliyev, and Zhandos Yessenbayev}
+      {"Data-driven morphological analysis and disambiguation for kazakh." In International Conference on Intelligent Text Processing and Computational Linguistics, pp. 151-163. Springer, Cham, 2015.}
+  \resumeSubHeadingListEnd
 
 \end{document}
